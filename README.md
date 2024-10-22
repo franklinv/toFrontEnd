@@ -16,5 +16,5 @@ git clone https://github.com/franklinv/todoFrontEnd.git
 cd https://github.com/franklinv/todoFrontEnd.git
 npm install
 npm run dev
-Go to http://localhost:5173 to Access to the Todo Front End Application
+The Front End Application will be accessible at http://localhost:5173
 ```
