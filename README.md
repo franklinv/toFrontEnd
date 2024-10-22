@@ -13,7 +13,7 @@ Front End ToDo Application to Add, Read, Update, Delete ToDos has been developed
 ## Installation Steps
 ``` 
 git clone https://github.com/franklinv/todoFrontEnd.git
-cd https://github.com/franklinv/todoFrontEnd.git
+cd todoFrontEnd
 npm install
 npm run dev
 The Front End Application will be accessible at http://localhost:5173
