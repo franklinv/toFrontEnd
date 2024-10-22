@@ -5,7 +5,7 @@ Front End system for the ToDo Application
 Front End ToDo Application to Add, Read, Update, Delete ToDos has been developed using React.js, JavaScript
 ## Features
 - Modular, Clean Code
-- Common CSS to style the entire applications i,e form, inputs
+- Common CSS to style the entire applications i.e form, inputs
 - Uses Axios to call the REST API from the ToDo Backend
 - used react-fontawesome for styling the edit, delete button
 - Added comments
