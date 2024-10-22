@@ -133,7 +133,10 @@ h1 {
 .header-style
 {
   color:black
-
 }
- 
 
+.div-style
+{
+  margin-left: auto; 
+  margin-right: 0;
+}
