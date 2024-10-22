@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #04043b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #f9e79f;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #04043b;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: black;
+}
+
+.todo-formcontrol {
+  outline: none;
+  background: #8758ff;
+  border: 1px solid #fdc951;
+  padding-right: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 149px;
+  color: black;
+}
+
+.todo-checkbox {
+   /* creating a custom design */
+   color: rgb(255, 255, 255);
+   margin-left: 2px;
+   background-color: white;
+   width: 2.6em;
+   height: 1.5em;
+   outline: none;
+   cursor: pointer;
+}
+
+.todo-label {
+  /* creating a custom design */
+  color: black;
+  width: 2.6em;
+  height: 1.5em;
+  outline: none;
+  cursor: pointer;
+}
+
+.todo-checkbox {
+  /* creating a custom design */
+  color: white;
+  width: 2.6em;
+  height: 1.5em;
+  outline: none;
+  cursor: pointer;
+}
+
+.todo-input::placeholder {
+  color: black;
+}
+
+.todo-btn {
+  background: #273746;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  background: #273746;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.header-style
+{
+  color:black
+
+}
+ 
+
