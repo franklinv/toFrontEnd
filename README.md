@@ -1,8 +1,20 @@
-# React + Vite
+# ToDo Application Front End
+Front End system for the ToDo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tech Stack 
+Front End ToDo Application to Add, Read, Update, Delete ToDos has been developed using React.js, JavaScript
+## Features
+- Modular, Clean Code
+- Common CSS to style the entire applications i,e form, inputs
+- Uses Axios to call the REST API from the ToDo Backend
+- used react-fontawesome for styling the edit, delete button
+- Added comments
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation Steps
+``` 
+git clone https://github.com/franklinv/todoFrontEnd.git
+cd https://github.com/franklinv/todoFrontEnd.git
+npm install
+npm run dev
+Go to http://localhost:5173 to Access to the Todo Front End Application
+```
