@@ -116,10 +116,13 @@ function App() {
       <ul >
         {todos.map((todo, index) => (
           <li key={index} className='Todo'>
-
-            <span>{todo.description}</span> <span> <input type="checkbox" className="todo-checkbox" checked={todo.completed} /></span>
+          
+            <span>{todo.description}</span> 
+            <span> <input type="checkbox" className="todo-checkbox" checked={todo.completed} /></span>
+            <div className='div-style'>
             <FontAwesomeIcon className="edit-icon" icon={faPenToSquare} onClick={() => setEdit(todo._id)} />
             <FontAwesomeIcon className="delete-icon" icon={faTrash} onClick={() => setDelete(todo._id)} />
+              </div>
           </li>
         ))}
       </ul>
